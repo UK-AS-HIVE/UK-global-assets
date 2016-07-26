@@ -1044,7 +1044,7 @@ input[type="search"] {
 
 .uk-global-header__myUK a {
     display: block;
-    background: url(/uk-assets/my-UK.png) center no-repeat;
+    background: url(my-UK.png) center no-repeat;
     background-size: contain;
     width: 60px;
     height: 60px;
