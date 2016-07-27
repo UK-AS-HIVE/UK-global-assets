@@ -25,11 +25,6 @@ input[type="submit"] {
     cursor: pointer
 }
 
-button[disabled],
-html input[disabled] {
-    cursor: default
-}
-
 button::-moz-focus-inner,
 input::-moz-focus-inner {
     border: 0;
@@ -134,14 +129,6 @@ input[type="search"]::-webkit-search-decoration {
     box-sizing: border-box
 }
 
-.uk-global-header,
-.uk-global-footer {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff
-}
 
 input,
 button,
@@ -159,6 +146,15 @@ img {
 
 [role="button"] {
     cursor: pointer
+}
+
+.uk-global-header,
+.uk-global-footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff
 }
 
 .uk-global-footer ul,
