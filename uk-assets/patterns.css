@@ -139,10 +139,6 @@ textarea {
     line-height: inherit
 }
 
-img {
-    vertical-align: middle
-}
-
 
 [role="button"] {
     cursor: pointer
@@ -350,7 +346,7 @@ input[type="search"] {
 
 .uk-search-bar {
     position: absolute;
-    z-index: 1000;
+    z-index: 100;
     width: 100%;
     background: #272727;
     height: 60px;
@@ -408,9 +404,9 @@ input[type="search"] {
 
 .uk-search-bar__menu-item:hover {
     background: white;
-    color: #272727;
+    color: #63656A;
     text-decoration: none;
-    border: 1px solid #272727
+    border: 1px solid #63656A
 }
 
 .uk-search-bar__row {
@@ -480,24 +476,24 @@ input[type="search"] {
     }
 }
 
-.uk-search-bar__submit {
+input.uk-search-bar__submit {
     float: left;
-    width: 25%;
-    margin-left: 0;
+    width: 25% !important;
+    margin-left: 0 !important;
     position: relative;
     min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     right: 1px;
     height: 46px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 800;
-    background: #272727;
-    color: white;
-    border: 1px solid white;
-    padding: 2px 5px;
-    transition: .2s;
-    border-radius: 0
+    background: #272727 !important;
+    color: white !important;
+    border: 1px solid white !important;
+    padding: 2px 5px !important;
+    transition: .2s !important;
+    border-radius: 0 !important;
 }
 
 @media (min-width:768px) {
@@ -520,10 +516,10 @@ input[type="search"] {
     }
 }
 
-.uk-search-bar__submit:hover {
-    background: white;
-    color: #272727;
-    border: 1px solid #272727
+input.uk-search-bar__submit:hover {
+    background: white !important;
+    color: #63656A !important;
+    border: 1px solid #63656A !important;
 }
 
 .uk-social {
@@ -572,7 +568,7 @@ input[type="search"] {
 }
 
 .uk-global-footer {
-    background: #0033A0;
+    background: #2C2A29;
     height: 100%;
     padding-top: 50px
 }
@@ -644,8 +640,10 @@ input[type="search"] {
 }
 
 .uk-global-header {
-    background: #0033A0;
-    min-height: 60px
+    background: #2C2A29;
+    min-height: 60px;
+    position: relative;
+    z-index: 30;
 }
 
 .uk-global-header__logo {
@@ -747,7 +745,7 @@ input[type="search"] {
 }
 
 .uk-global-header__nav-item:hover {
-    background-color: #272727
+    background-color: #63656A;
 }
 
 .uk-global-header__myUK {
@@ -777,7 +775,7 @@ input[type="search"] {
 }
 
 .uk-global-header__search-button button {
-    background-color: #0033A0;
+    background-color: #2C2A29;
     border: none;
     height: 60px;
     transition: .2s;
@@ -791,7 +789,7 @@ input[type="search"] {
 }
 
 .uk-global-header__search-button:hover button {
-    background-color: #272727
+    background-color: #63656A
 }
 
 .uk-row {
@@ -826,3 +824,10 @@ input[type="search"] {
         width: 83.33333333%
       }
     }
+
+
+.region-global-nav {
+  background-color: #2C2A29;
+  min-height: 60px;
+}
+
